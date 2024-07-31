@@ -1,7 +1,6 @@
 package head.and.tail;
 
 /**
- *
  * @author Fariz Mamedow
  */
 public class HeadAndTail {
@@ -11,9 +10,8 @@ public class HeadAndTail {
      */
     public static void main(String[] args) {
         System.out.println(Coin.tossing());
-        
-        Coin.Side side = Coin.tossing();
-        if(side.isHead()) System.out.println("head");
-        if(side.isTail()) System.out.println("tail");
+
+        Side side = Coin.tossing();
+        System.out.println(side);
     }
 }
